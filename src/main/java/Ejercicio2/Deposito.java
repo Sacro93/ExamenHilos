@@ -11,3 +11,6 @@ class Deposito {
         return color;
     }
 }
+
+// deposito de pintura para los colores primarios
+//color es final,por lo que cada depósito tendrá siempre el mismo color

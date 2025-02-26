@@ -6,9 +6,9 @@ public class Mezcladora {
         Deposito magenta = new Deposito("Magenta");
         Deposito amarillo = new Deposito("Amarillo");
 
-        Persona rojo = new Persona(amarillo, magenta, "Rojo");
-        Persona azul = new Persona(magenta, cian, "Azul");
-        Persona verde = new Persona(amarillo, cian, "Verde");
+        Persona rojo = new Persona("Juan", amarillo, magenta, "Rojo");
+        Persona azul = new Persona("Fran",magenta, cian, "Azul");
+        Persona verde = new Persona("Agustin" , amarillo, cian, "Verde");
 
 
         rojo.start();
